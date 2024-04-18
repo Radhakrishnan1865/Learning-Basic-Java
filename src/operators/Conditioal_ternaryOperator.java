@@ -20,6 +20,13 @@ public class Conditioal_ternaryOperator {
 		
 		 String res=(age>=18)?"Eligible":"Not Eligible";
 		 System.out.println(res);
+		 
+		 //Browser selection 
+		 
+		 String browser="chrome";
+		 
+		 String br= (browser=="chrome") ?"yes" : "no";
+		 System.out.println(br);
 
 	}
 
