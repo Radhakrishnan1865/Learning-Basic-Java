@@ -12,6 +12,7 @@ public class Account {
 	private int accno;
 	private String name;
 	private double amount;
+	private String Branchname;
 	
 	public int getAccno() {
 		return accno;
@@ -30,6 +31,12 @@ public class Account {
 	}
 	public void setAmount(double amount) {
 		this.amount = amount;
+	}
+	public String getBranchname() {
+		return Branchname;
+	}
+	public void setBranchname(String Branchname) {
+		this.Branchname = Branchname;
 	}
 	
 
